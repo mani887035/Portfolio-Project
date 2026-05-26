@@ -11,7 +11,7 @@ form.addEventListener("submit", async(e)=>{
     try{
 
         const response = await fetch(
-            "http://localhost:5000/contact",
+            "https://portfolio-backend-iee2.onrender.com/contact",
             {
                 method:"POST",
                 headers:{
