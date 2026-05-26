@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manigandan R | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Manigandan</div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+
+    <div class="hero-container">
+
+        <div class="hero-image">
+
+            <img src="me.jpeg" alt="Manigandan">
+
+        </div>
+
+        <div class="hero-content">
+
+            <h1>
+                Hi, I'm <span>Manigandan R</span>
+            </h1>
+
+            <h2>
+                Full Stack Developer & IT Student
+            </h2>
+
+            <p>
+                Passionate about building real-world software applications,
+                exploring AI technologies, and solving practical problems
+                through innovative development.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn-outline">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <section id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <p>
+                    I am currently pursuing B.Tech in Information Technology
+                    at Anna University.
+                </p>
+
+                <p>
+                    I enjoy working on innovative ideas related to AI,
+                    full stack development, automation systems,
+                    and real-world problem solving.
+                </p>
+
+                <p>
+                    I have participated in NASA Space Apps Challenge
+                    and NM Hackathon, where I worked on collaborative
+                    technology projects.
+                </p>
+
+                <p>
+                    Apart from technical skills,
+                    I also have leadership experience as class representative
+                    and practical work experience in customer handling.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="skills">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">MongoDB</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">SQL</div>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+    <h2 class="section-title">
+        Projects
+    </h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+
+            <h3>GREEN AIR MISSION</h3>
+
+            <p>
+                An AI-assisted pollution reduction concept designed to improve urban air quality using turbine-based vacuum systems and smart environmental monitoring.
+            </p>
+
+            <div class="tech-stack">
+                <span>AI</span>
+                <span>IoT</span>
+                <span>Environmental Tech</span>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Accident Detection System</h3>
+
+            <p>
+                Smart embedded system using STM32 microcontroller for accident detection and emergency alert transmission to improve road safety response.
+            </p>
+
+            <div class="tech-stack">
+                <span>STM32</span>
+                <span>Embedded Systems</span>
+                <span>Sensors</span>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Travel Exploration App</h3>
+
+            <p>
+                Interactive travel exploration web application developed with a modern UI for discovering destinations, viewing travel experiences, and exploring tourism-related content in an engaging way.
+            </p>
+
+            <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Full Stack Portfolio Website</h3>
+
+            <p>
+                Personal portfolio website built using frontend and backend technologies with MongoDB integration for contact form management and live deployment support.
+            </p>
+
+            <div class="tech-stack">
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>Express.js</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="contact">
+
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    manigandanm237@gmail.com
+                </p>
+
+                <p>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        LinkedIn Profile
+                    </a>
+                </p>
+
+                <p>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/mani887035" target="_blank">
+                        GitHub Profile
+                    </a>
+                </p>
+
+            </div>
+
+            <form id="contactForm">
+
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <input type="email" id="email" placeholder="Your Email" required>
+
+                <textarea id="message" placeholder="Your Message"></textarea>
+
+                <button type="submit">Send Message</button>
+
+                <p id="success"></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Manigandan R. All Rights Reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
